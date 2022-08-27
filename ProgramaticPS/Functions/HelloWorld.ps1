@@ -1,3 +1,3 @@
 Function HelloWorld {
-    Write "Hello World"
+    Write-Output "Hello World"
 }
