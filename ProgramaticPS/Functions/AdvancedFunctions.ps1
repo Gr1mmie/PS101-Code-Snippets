@@ -30,7 +30,7 @@ Function PrintStuff {
 
     [Alias("Print")]
 
-    [CmdletBinding(PositionalBinding)]
+    [CmdletBinding(PositionalBinding=$false)]
     param(
         [Parameter(Mandatory=$true)]        
         [string]$Print,
