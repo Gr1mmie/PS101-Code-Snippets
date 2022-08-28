@@ -1,9 +1,7 @@
 Function Add {
     param(
-        [Parameter(Mandatory=$true)]
         [int]$num1,
         
-        [Parameter(Mandatory=$true)]
         [int]$num2,
         
         [OutputType([int])]$result
@@ -14,10 +12,8 @@ Function Add {
 
 Function Subtract {
     param(
-        [Parameter(Mandatory=$true)]
         [int]$num1,
         
-        [Parameter(Mandatory=$true)]
         [int]$num2,
         
         [OutputType([int])]$result
@@ -29,10 +25,8 @@ Function Subtract {
 Function PrintStuff {
 
     param(
-        [Parameter(Mandatory=$true)]
         [string]$Print,
         
-        [Parameter(Mandatory=$true)]
         [int]$resultNum
     )
 
